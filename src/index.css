@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+.container input {
+  margin-left: 10px;
+}
+input.error {
+  border: 1px solid red;
+}
+.color-container {
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin: 1rem auto;
+}
+.color-card {
+  flex-grow: 1;
+  width: 150px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.color-light {
+  color: white;
+}
